@@ -24,3 +24,4 @@ C:\Users\Dima\Desktop\СитникSQLApp\SitnikSQLApp\SitnikSQLApp\obj\Debug\Sit
 C:\Users\Dima\Desktop\СитникSQLApp\SitnikSQLApp\SitnikSQLApp\obj\Debug\SitnikSQLApp.csproj.CopyComplete
 C:\Users\Dima\Desktop\СитникSQLApp\SitnikSQLApp\SitnikSQLApp\obj\Debug\SitnikSQLApp.RegisterForm.resources
 C:\Users\Dima\Desktop\СитникSQLApp\SitnikSQLApp\SitnikSQLApp\obj\Debug\SitnikSQLApp.MainForm.resources
+C:\Users\Dima\Desktop\СитникSQLApp\SitnikSQLApp\SitnikSQLApp\obj\Debug\SitnikSQLApp.VidWorkForm.resources

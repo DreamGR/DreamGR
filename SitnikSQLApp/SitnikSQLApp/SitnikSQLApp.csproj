@@ -71,6 +71,12 @@
     <Compile Include="RegisterForm.Designer.cs">
       <DependentUpon>RegisterForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="VidWorkForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VidWorkForm.Designer.cs">
+      <DependentUpon>VidWorkForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -88,6 +94,9 @@
     </Compile>
     <EmbeddedResource Include="RegisterForm.resx">
       <DependentUpon>RegisterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VidWorkForm.resx">
+      <DependentUpon>VidWorkForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

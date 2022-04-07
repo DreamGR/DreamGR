@@ -21,5 +21,20 @@ namespace SitnikSQLApp
         {
             Application.Exit();
         }
-    }
+
+        Point point;
+        private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                this.Left += e.X - point.X;
+                this.Top += e.Y - point.Y;
+            }
+        }
+
+        private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
+        {
+            point = new Point(e.X, e.Y);
+        }
+    } 
 }
