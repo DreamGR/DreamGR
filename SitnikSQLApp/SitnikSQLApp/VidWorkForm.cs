@@ -49,5 +49,36 @@ namespace SitnikSQLApp
             foreach (string[] s in data)
                 dataGridView1.Rows.Add(s);
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainForm MainForm = new MainForm();
+            MainForm.Show();
+        }
+
+        private void closeButton_MouseEnter(object sender, EventArgs e)
+        {
+            this.closeButton.ForeColor = Color.Green;
+        }
+
+        private void closeButton_MouseLeave(object sender, EventArgs e)
+        {
+            this.closeButton.ForeColor = Color.White;
+        }
+        private void closeButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void label3_MouseEnter(object sender, EventArgs e)
+        {
+            this.label3.ForeColor = Color.Green;
+        }
+
+        private void label3_MouseLeave(object sender, EventArgs e)
+        {
+            this.label3.ForeColor = Color.White;
+        }
     }
 }

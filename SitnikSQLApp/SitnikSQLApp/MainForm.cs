@@ -22,6 +22,16 @@ namespace SitnikSQLApp
             Application.Exit();
         }
 
+        private void closeButton_MouseEnter(object sender, EventArgs e)
+        {
+            this.closeButton.ForeColor = Color.Green;
+        }
+
+        private void closeButton_MouseLeave(object sender, EventArgs e)
+        {
+            this.closeButton.ForeColor = Color.White;
+        }
+
         Point point;
         private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
         {
@@ -35,6 +45,13 @@ namespace SitnikSQLApp
         private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
         {
             point = new Point(e.X, e.Y);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            VidWorkForm VidWForm = new VidWorkForm();
+            VidWForm.Show();
         }
     } 
 }

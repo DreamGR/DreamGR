@@ -70,6 +70,8 @@
             this.closeButton.TabIndex = 1;
             this.closeButton.Text = "X";
             this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
+            this.closeButton.MouseEnter += new System.EventHandler(this.closeButton_MouseEnter);
+            this.closeButton.MouseLeave += new System.EventHandler(this.closeButton_MouseLeave);
             // 
             // label1
             // 
@@ -114,6 +116,7 @@
             this.button1.TabIndex = 5;
             this.button1.Text = "Виды работ";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 

@@ -76,7 +76,7 @@ namespace SitnikSQLApp
             }
             else
             {
-                MessageBox.Show("Noooo!");
+                MessageBox.Show("Вход невозомжен, проверьте пароль или логин!");
             }
         }
 

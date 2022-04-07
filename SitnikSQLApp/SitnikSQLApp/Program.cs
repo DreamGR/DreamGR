@@ -16,7 +16,7 @@ namespace SitnikSQLApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new VidWorkForm());
+            Application.Run(new LoginForm());
         }
     }
 }
