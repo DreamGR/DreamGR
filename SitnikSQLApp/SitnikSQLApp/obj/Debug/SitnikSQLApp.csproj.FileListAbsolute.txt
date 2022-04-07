@@ -25,3 +25,6 @@ C:\Users\Dima\Desktop\СитникSQLApp\SitnikSQLApp\SitnikSQLApp\obj\Debug\Sit
 C:\Users\Dima\Desktop\СитникSQLApp\SitnikSQLApp\SitnikSQLApp\obj\Debug\SitnikSQLApp.RegisterForm.resources
 C:\Users\Dima\Desktop\СитникSQLApp\SitnikSQLApp\SitnikSQLApp\obj\Debug\SitnikSQLApp.MainForm.resources
 C:\Users\Dima\Desktop\СитникSQLApp\SitnikSQLApp\SitnikSQLApp\obj\Debug\SitnikSQLApp.VidWorkForm.resources
+C:\Users\Dima\Desktop\СитникSQLApp\SitnikSQLApp\SitnikSQLApp\obj\Debug\SitnikSQLApp.IspolniteliForm.resources
+C:\Users\Dima\Desktop\СитникSQLApp\SitnikSQLApp\SitnikSQLApp\obj\Debug\SitnikSQLApp.ZakachikiForm.resources
+C:\Users\Dima\Desktop\СитникSQLApp\SitnikSQLApp\SitnikSQLApp\obj\Debug\SitnikSQLApp.ZakazRemontForm.resources

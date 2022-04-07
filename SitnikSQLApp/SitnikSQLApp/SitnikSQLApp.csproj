@@ -51,6 +51,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DBS.cs" />
+    <Compile Include="IspolniteliForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IspolniteliForm.Designer.cs">
+      <DependentUpon>IspolniteliForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +83,21 @@
     <Compile Include="VidWorkForm.Designer.cs">
       <DependentUpon>VidWorkForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ZakachikiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZakachikiForm.Designer.cs">
+      <DependentUpon>ZakachikiForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZakazRemontForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZakazRemontForm.Designer.cs">
+      <DependentUpon>ZakazRemontForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="IspolniteliForm.resx">
+      <DependentUpon>IspolniteliForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -97,6 +118,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="VidWorkForm.resx">
       <DependentUpon>VidWorkForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZakachikiForm.resx">
+      <DependentUpon>ZakachikiForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZakazRemontForm.resx">
+      <DependentUpon>ZakazRemontForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

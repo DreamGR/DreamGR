@@ -53,5 +53,26 @@ namespace SitnikSQLApp
             VidWorkForm VidWForm = new VidWorkForm();
             VidWForm.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+           IspolniteliForm IsForm = new IspolniteliForm();
+            IsForm.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ZakazRemontForm ZRForm = new ZakazRemontForm();
+            ZRForm.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ZakachikiForm ZWForm = new ZakachikiForm();
+            ZWForm.Show();
+        }
     } 
 }

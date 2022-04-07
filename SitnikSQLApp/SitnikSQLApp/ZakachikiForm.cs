@@ -3,7 +3,6 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,13 +11,14 @@ using System.Windows.Forms;
 
 namespace SitnikSQLApp
 {
-    public partial class VidWorkForm : Form
+    public partial class ZakachikiForm : Form
     {
-        public VidWorkForm()
+        public ZakachikiForm()
         {
             InitializeComponent();
             LoadData();
         }
+
         private void LoadData()
         {
             DBS dbs = new DBS();
@@ -27,7 +27,7 @@ namespace SitnikSQLApp
             dbs.openConnection();
 
 
-            MySqlCommand command = new MySqlCommand("SELECT * FROM `VidiWork` ORDER BY id", dbs.GetConnection());
+            MySqlCommand command = new MySqlCommand("SELECT * FROM `zakazhik` ORDER BY id", dbs.GetConnection());
 
             MySqlDataReader reader = command.ExecuteReader();
 
@@ -35,11 +35,12 @@ namespace SitnikSQLApp
 
             while (reader.Read())
             {
-                data.Add(new string[3]);
+                data.Add(new string[4]);
 
                 data[data.Count - 1][0] = reader[0].ToString();
                 data[data.Count - 1][1] = reader[1].ToString();
                 data[data.Count - 1][2] = reader[2].ToString();
+                data[data.Count - 1][3] = reader[3].ToString();
             }
 
             reader.Close();
@@ -49,14 +50,6 @@ namespace SitnikSQLApp
             foreach (string[] s in data)
                 dataGridView1.Rows.Add(s);
         }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            MainForm MainForm = new MainForm();
-            MainForm.Show();
-        }
-
         private void closeButton_MouseEnter(object sender, EventArgs e)
         {
             this.closeButton.ForeColor = Color.Green;
@@ -71,6 +64,12 @@ namespace SitnikSQLApp
             Application.Exit();
         }
 
+        private void label3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainForm MainForm = new MainForm();
+            MainForm.Show();
+        }
         private void label3_MouseEnter(object sender, EventArgs e)
         {
             this.label3.ForeColor = Color.Green;
